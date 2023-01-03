@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col'
 export default function StoreListings() {
     return (
         <div style={{ margin: "auto" }}>
-            <h2 style={{ fontSize: "36px", lineHeight: "50px", marginTop: "20px", textAlign: "center", fontWeight: "normal" }}>Browse stores in Houston</h2>
+            <h2 style={{ fontSize: "36px", lineHeight: "50px", marginTop: "20px", textAlign: "center", fontWeight: "normal" }}>Browse stores in Los Angeles</h2>
             <Container style={{ marginTop: "50px", textAlign: "center" }}>
                 <Row style={{ borderBottom: "1px solid #E8E9EB", display: "flex", justifyContent: "space-evenly"}} >
                     <Row>
@@ -31,10 +31,10 @@ export default function StoreListings() {
                     <Col sm="1"></Col>
                     <Row >
                         <Col xs=".5" >
-                            <Image style={{ height: "50px", width: "50px", border: "1px solid #E8E9EB" }} src="https://d2d8wwwkmhfcva.cloudfront.net/96x96/d2lnr5mha7bycj.cloudfront.net/warehouse/logo/45/d10d0f4b-1fca-4b84-bc19-bbf492c040da.png" roundedCircle />
+                            <Image style={{ height: "50px", width: "50px", border: "1px solid #E8E9EB" }} src="https://www.instacart.com/image-server/132x132/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png" roundedCircle />
                         </Col>
                         <Col md="6" style={{textAlign: "left"}}>
-                            <h5 style={{ fontWeight: "bold" }}>Kroger</h5>
+                            <h5 style={{ fontWeight: "bold" }}>Costco</h5>
                             <p>Delivery</p>
                         </Col>
                     </Row>
